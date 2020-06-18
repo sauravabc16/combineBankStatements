@@ -181,7 +181,6 @@ public class Read {
 				t.type="International";
 				t.nameOnCard=cardname;
 				international.add(t);
-
 			}
 		}
 		icici.close();
@@ -322,7 +321,6 @@ public class Read {
 	 * System.out.println(isValidDate("32476347656435"));
 	 */
 	public static boolean isValidDate(String inDate) {
-
 		dateFormat.setLenient(false);
 		try {
 			dateFormat.parse(inDate.trim());
