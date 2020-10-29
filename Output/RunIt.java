@@ -1,5 +1,5 @@
 package test1;
-//
+// make sure you have the files as per the required format or else program will fail to execute.
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileWriter;
